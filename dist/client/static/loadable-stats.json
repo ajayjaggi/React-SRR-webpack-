@@ -1,0 +1,131 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.30.0",
+  "hash": "67c5f48de6eb992c66fb",
+  "publicPath": "/static",
+  "outputPath": "/Users/ajay/Desktop/WebStrom/webpackBasics/dist/client/static",
+  "assetsByChunkName": {
+    "Dedicated": "Dedicated.js",
+    "Home": "Home.js",
+    "main": "clientBundle.js",
+    "vendors~Home": "vendors~Home.js",
+    "vendors~main": "vendors~main.js"
+  },
+  "assets": [
+    {
+      "name": "Dedicated.js",
+      "size": 32220,
+      "chunks": [
+        "Dedicated"
+      ],
+      "chunkNames": [
+        "Dedicated"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "Home.js",
+      "size": 8747,
+      "chunks": [
+        "Home"
+      ],
+      "chunkNames": [
+        "Home"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "clientBundle.js",
+      "size": 32226,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "e03dd31458c6e34aeffb666d6f8def45.jpg",
+      "size": 157050,
+      "chunks": [],
+      "chunkNames": [],
+      "emitted": false
+    },
+    {
+      "name": "vendors~Home.js",
+      "size": 28714,
+      "chunks": [
+        "vendors~Home"
+      ],
+      "chunkNames": [
+        "vendors~Home"
+      ],
+      "emitted": false
+    },
+    {
+      "name": "vendors~main.js",
+      "size": 2841990,
+      "chunks": [
+        "vendors~main"
+      ],
+      "chunkNames": [
+        "vendors~main"
+      ],
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "vendors~main",
+        "main"
+      ],
+      "assets": [
+        "vendors~main.js",
+        "clientBundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "vendors~main",
+        "main"
+      ],
+      "assets": [
+        "vendors~main.js",
+        "clientBundle.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Home": {
+      "chunks": [
+        "vendors~Home",
+        "Home"
+      ],
+      "assets": [
+        "vendors~Home.js",
+        "Home.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Dedicated": {
+      "chunks": [
+        "Dedicated"
+      ],
+      "assets": [
+        "Dedicated.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "children": []
+}
