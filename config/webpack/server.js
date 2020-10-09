@@ -1,4 +1,5 @@
 const {paths} = require('../paths')
+const nodeExternals = require('webpack-node-externals');
 
 
 const serverConfig = {
@@ -12,6 +13,7 @@ const serverConfig = {
         chunkFilename: '[name].server.js'
 
     },
+    externals: [nodeExternals()],
     optimization: {
         splitChunks: {
             chunks: 'all'

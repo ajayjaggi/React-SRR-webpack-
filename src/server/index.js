@@ -1,5 +1,5 @@
-import express from 'express'
 import React from 'react'
+import express from 'express'
 import { renderToString } from 'react-dom/server'
 import { ChunkExtractor } from '@loadable/server'
 import paths from '../../config/paths'
@@ -25,7 +25,8 @@ app.use('/static',express.static('public'))
 
 app.use((req,res) => {
     res.locals.extractor = new ChunkExtractor({
-       statsFile: paths.loadableServerStatsFile
+       statsFile: paths.loadableServerStatsFile,
+        entrypoints: ['clientBundle']
     })
 
     const extractor  = res.locals.extractor
@@ -59,7 +60,7 @@ app.use((req,res) => {
 
 
 
-app.listen(process.env.PORT || 4000,() => {
+app.listen(process.env.PORT || 4004,() => {
     console.log('Server started')
 })
 
