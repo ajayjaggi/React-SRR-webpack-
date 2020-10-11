@@ -2,20 +2,19 @@
   "errors": [],
   "warnings": [],
   "version": "4.30.0",
-  "hash": "67c5f48de6eb992c66fb",
+  "hash": "254420d45cecfafde50f",
   "publicPath": "/static",
   "outputPath": "/Users/ajay/Desktop/WebStrom/webpackBasics/dist/client/static",
   "assetsByChunkName": {
     "Dedicated": "Dedicated.js",
     "Home": "Home.js",
-    "main": "clientBundle.js",
-    "vendors~Home": "vendors~Home.js",
+    "main": "main.js",
     "vendors~main": "vendors~main.js"
   },
   "assets": [
     {
       "name": "Dedicated.js",
-      "size": 32220,
+      "size": 1743,
       "chunks": [
         "Dedicated"
       ],
@@ -26,7 +25,7 @@
     },
     {
       "name": "Home.js",
-      "size": 8747,
+      "size": 2083,
       "chunks": [
         "Home"
       ],
@@ -36,31 +35,13 @@
       "emitted": false
     },
     {
-      "name": "clientBundle.js",
-      "size": 32226,
+      "name": "main.js",
+      "size": 32097,
       "chunks": [
         "main"
       ],
       "chunkNames": [
         "main"
-      ],
-      "emitted": false
-    },
-    {
-      "name": "e03dd31458c6e34aeffb666d6f8def45.jpg",
-      "size": 157050,
-      "chunks": [],
-      "chunkNames": [],
-      "emitted": false
-    },
-    {
-      "name": "vendors~Home.js",
-      "size": 28714,
-      "chunks": [
-        "vendors~Home"
-      ],
-      "chunkNames": [
-        "vendors~Home"
       ],
       "emitted": false
     },
@@ -85,7 +66,7 @@
       ],
       "assets": [
         "vendors~main.js",
-        "clientBundle.js"
+        "main.js"
       ],
       "children": {},
       "childAssets": {}
@@ -99,18 +80,16 @@
       ],
       "assets": [
         "vendors~main.js",
-        "clientBundle.js"
+        "main.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "Home": {
       "chunks": [
-        "vendors~Home",
         "Home"
       ],
       "assets": [
-        "vendors~Home.js",
         "Home.js"
       ],
       "children": {},

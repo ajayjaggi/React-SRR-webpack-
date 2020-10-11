@@ -1,11 +1,12 @@
 import React from 'react'
-import './style.css'
+import { Link } from 'react-router-dom'
+// import './style.css'
 
 const Home =  (props) => {
     return(
-        <div className="container">
+        <Link className="container" to ='/messi'>
             Welcome to Home Page
-        </div>
+        </Link>
     )
 }
 

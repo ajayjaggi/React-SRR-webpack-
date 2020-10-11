@@ -9,7 +9,7 @@ const clientConfig = {
     mode: 'development',
     output: {
         path: path.join(paths.clientBuild,paths.publicPath),
-        filename: 'clientBundle.js',
+        filename: '[name].js',
         publicPath: paths.publicPath,
         chunkFilename: '[name].js'
     },

@@ -5,7 +5,7 @@ import routes from './routes'
 const App = () => {
     return (
         <Switch>
-            {routes.map((route,i) => (
+            {routes().map((route,i) => (
                 <Route
                     exact={route.exact}
                     key={route.key || i}
